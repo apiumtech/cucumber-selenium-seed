@@ -1,5 +1,5 @@
 # Cucumber-Selenium Seed: Ruby + Cucumber + Selenium-Webdriver + Chrome headless
-Web-interaction tests feed. Feel free to use in your projects :)
+Web-interaction tests seed. Feel free to use in your projects :)
 
 ## Installation:
 You just need to have <a href=https://docs.docker.com/engine/installation/>Docker</a> installed to run your tests
