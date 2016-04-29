@@ -15,8 +15,6 @@ docker run tests`
 
 and you should see the running process ending with:
 ```
-Step 12 : RUN cucumber
- ---> Running in 398a7ba9f86a
 Feature: Checking the title of google.com
 
   Scenario: Google.com title should be 'Google'               # features/example.feature:3
