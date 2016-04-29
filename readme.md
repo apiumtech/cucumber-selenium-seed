@@ -6,13 +6,14 @@ You just need to have <a href=https://docs.docker.com/engine/installation/>Docke
 
 
 ## Running the tests:
-In order to run your tests you just have to build the docker image.
+In order to run your tests you just have to build and run the docker image.
 The Dockerfile should not be modified, you just need to add the tests in the features directory.
 
 To run the example tests just open a terminal and type:
-`docker build .`
+`docker build -t tests .
+docker run tests`
 
-and you should see the building process ending with:
+and you should see the running process ending with:
 ```
 Step 12 : RUN cucumber
  ---> Running in 398a7ba9f86a

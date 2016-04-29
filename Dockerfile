@@ -37,4 +37,4 @@ RUN bundle install
 
 # copy the tests and run cucumber
 COPY features /usr/src/app/features
-RUN cucumber
+CMD cucumber
